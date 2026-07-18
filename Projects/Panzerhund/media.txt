@@ -1,2 +1,5 @@
 Panzerhund_head.jpg
 Render - Panzerhund Head
+
+Panzerhund_blank.jpg // Panzerhund_head.jpg
+Clay Render / Textured
