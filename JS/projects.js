@@ -76,23 +76,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const fragment = document.createDocumentFragment();
 
             let i = 0;
-            while (i < lines.length) {
-                let description = '';
-                let urls = [lines[i]];
+while (i < lines.length) {
+    let description = '';
+    let urls = [lines[i]];
 
-                // Check if the next line is a description
-                if (i + 1 < lines.length && !lines[i + 1].match(/\.(jpeg|jpg|gif|png|mp4|webm|mview)$/) && !lines[i + 1].includes('youtube.com') && !lines[i + 1].includes('sketchfab.com') && !lines[i + 1].includes(' // ')) {
-                    description = lines[i + 1];
-                    i += 1;
-                }
+    // Check if the line contains a pair of images FIRST
+    if (lines[i].includes(' // ')) {
+        urls = lines[i].split(' // ').map(url => url.trim());
+    }
 
-                // Check if the line contains a pair of images
-                if (lines[i].includes(' // ')) {
-                    urls = lines[i].split(' // ').map(url => url.trim());
-                }
+    // Check if the next line is a description
+    if (
+        i + 1 < lines.length &&
+        !lines[i + 1].match(/\.(jpeg|jpg|gif|png|mp4|webm|mview)$/) &&
+        !lines[i + 1].includes('youtube.com') &&
+        !lines[i + 1].includes('sketchfab.com') &&
+        !lines[i + 1].includes(' // ')
+    ) {
+        description = lines[i + 1];
+        i += 1;
+    }
 
-                // Adjust URLs for relative paths
-                urls = urls.map(url => (url.startsWith('http') ? url : basePath + url));
+    // Adjust URLs for relative paths
+    urls = urls.map(url => (url.startsWith('http') ? url : basePath + url));
 
                 if (description.includes('(marmoset viewer)')) {
                     urls = [`${urls[0]}.mview`];
