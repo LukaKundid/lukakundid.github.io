@@ -6,6 +6,6 @@ I did not come up with the Panzerhund. It was first designed by the team at Mach
 ---
 Blender
 ---
-https://afar.brightspotcdn.com/dims4/default/6b7273f/2147483647/strip/false/crop/2000x1326+0+0/resize/1486x985!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc4%2F35%2Fb108ff5c4b56846ea66ae22086f8%2Fhawaii-karsten-winegeart-unsplash.jpg
+Panzerhund_thumbnail.jpg
 ---
 panzerhund.html
