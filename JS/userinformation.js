@@ -17,8 +17,6 @@ function addUserInformation() {
 
             // Get the container where the user info should be added
             const container = document.querySelector('.top-container'); // Select the specific container
-            
-            }
 
             // Create a document fragment for better performance
             const fragment = document.createDocumentFragment();
@@ -36,7 +34,7 @@ function addUserInformation() {
 
             // Create and append the user name as a link
             const userNameLink = document.createElement("a");
-            userNameLink.href = "index.html";
+            userNameLink.href = "../../index.html";
             userNameLink.className = "user-name-link";
 
             const userName = document.createElement("h1");
@@ -107,7 +105,6 @@ function addUserInformation() {
                 // Detect the type of social link
                 const socialType = Object.keys(socialIconMap).find(key => social.includes(key)) || 'email';
                 iconClass = socialIconMap[socialType];
-
                 if (socialType === 'email') {
                     url = `mailto:${social}`;
                 }
@@ -116,10 +113,8 @@ function addUserInformation() {
                     const a = document.createElement("a");
                     a.href = url;
                     a.target = "_blank";
-
                     const icon = document.createElement("i");
                     icon.className = iconClass;
-
                     a.appendChild(icon);
                     socialIcons.appendChild(a);
                 }
