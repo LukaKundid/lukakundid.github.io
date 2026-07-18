@@ -89,7 +89,3 @@
   .image-slider::-moz-range-thumb:hover {
     background: #dddddd;
   }
-
-.media-item {
-    position: relative;
-}
