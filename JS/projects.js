@@ -196,8 +196,8 @@ while (i < lines.length) {
             sliderContainer.appendChild(sliderLine);
             sliderContainer.appendChild(slider);
 
+            imgContainer.appendChild(sliderContainer);
             mediaElement.appendChild(imgContainer);
-            mediaElement.appendChild(sliderContainer);
         } else {
             mediaElement.appendChild(imgContainer);
         }
