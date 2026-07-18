@@ -1,5 +1,5 @@
-Projects/Panzerhund/Panzerhund_head.jpg
+Panzerhund_head.jpg
 Render - Panzerhund Head
 
-Projects/Panzerhund/Panzerhund_blank.jpg // Projects/Panzerhund/Panzerhund_head.jpg
+Panzerhund_blank.jpg // Panzerhund_head.jpg
 Clay Render / Textured
