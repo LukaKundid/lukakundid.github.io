@@ -12,7 +12,7 @@ function addUserInformation() {
     fetch(basePath)
         .then(response => response.text())
         .then(data => {
-            const lines = data.split('\n').map(line => line.trim());
+            const lines = data.split('\n').map(line => line.trim()).filter(line => line !== "");
             const [profilePicUrl, profileName, profileRole, location, ...socials] = lines;
 
             // Get the container where the user info should be added
