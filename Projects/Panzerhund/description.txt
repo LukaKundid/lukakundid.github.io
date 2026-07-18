@@ -6,6 +6,6 @@ I did not come up with the Panzerhund. It was first designed by the team at Mach
 ---
 Blender
 ---
-https://raw.githubusercontent.com/LukaKundid/lukakundid.github.io/main/Projects/Panzerhund/Panzerhund_head.jpg
+Panzerhund_thumbnail.jpg
 ---
 panzerhund.html
