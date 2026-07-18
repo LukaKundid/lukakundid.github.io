@@ -6,6 +6,6 @@ I did not come up with the Panzerhund. It was first designed by the team at Mach
 ---
 Blender
 ---
-thumbnail url (gets injected into your landing page) 
+Panzerhund_head.jpg
 ---
 panzerhund.html
