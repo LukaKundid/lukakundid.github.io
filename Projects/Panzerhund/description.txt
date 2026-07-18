@@ -1,6 +1,7 @@
 Panzerhund Head
 ---
-I decided to practice my modeling skills on a robot head. Specifically the Panzerhund, from Wolfenstein: The New Order. 
+I decided to practice my modeling skills on a robot head. Specifically the Panzerhund, from Wolfenstein: The New Order.
+
 I did not come up with the Panzerhund. It was first designed by the team at MachineGames. I just decided to try modeling its head for practice
 ---
 Blender
